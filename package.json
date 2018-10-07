@@ -1,6 +1,6 @@
 {
   "name": "ebabel-text-sprite",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Create a 2D text sprite that can be added to any THREE.js mesh.",
   "main": "index.js",
   "engines": {

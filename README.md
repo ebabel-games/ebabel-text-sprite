@@ -12,9 +12,13 @@ npm install --save ebabel-text-sprite
 
 ### Usage
 ```
-const { ebabelTextSprite } = require('ebabel-text-sprite');
+const { textSprite } = require('ebabel-text-sprite');
 
-const result = ebabelTextSprite();
+const result = textSprite({
+  THREE,
+  canvas: document.createElement('canvas'),
+  text: 'Ignominous Imp',
+});
 ```
 
 ## Development of this module
